@@ -2,10 +2,12 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 gem 'jquery-rails'
+gem 'bootstrap-sass', '2.0.0'
 
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.10.0'
+  gem 'guard-rspec'
 end
 
 
